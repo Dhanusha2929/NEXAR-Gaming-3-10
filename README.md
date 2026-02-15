@@ -2,7 +2,9 @@
 A modern and futuristic gaming landing page built using HTML and CSS.   Designed with a dark neon theme to create a powerful esports-style experience.
 
 ## 🖼️ Project Screenshot
+<img src="assets/Screenshot 2026-02-15 195846.png" alt="Preview 1" width="100%">
 
+<img src="assets/Screenshot 2026-02-15 195858.png" alt="Preview 2" width="100%">
 
 
 ## ✨ Features
@@ -14,7 +16,7 @@ A modern and futuristic gaming landing page built using HTML and CSS.   Designed
 - 🎨 Gradient Hero Text
 - 💡 Clean and Structured Design
 
----
+
 
 ## 🛠️ Tech Used
 
@@ -22,7 +24,6 @@ A modern and futuristic gaming landing page built using HTML and CSS.   Designed
 - CSS3
 - Google Fonts (Orbitron)
 
----
 
 
 ## 📚 What I Learned
@@ -33,13 +34,13 @@ A modern and futuristic gaming landing page built using HTML and CSS.   Designed
 - Designing with consistent color systems
 - Structuring professional project folders
 
----
+
 
 ## 📌 About The Project
 
 NEXAR is a conceptual esports gaming platform landing page created to practice modern UI design, neon effects, and responsive layout techniques.
 
----
+
 
 ⭐ If you like this project, give it a star!
 
