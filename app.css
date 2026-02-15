@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Orbitron', sans-serif;
+}
+
+body{
+    background:#0B0F1A;
+    color:white;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:fixed;
+    width:100%;
+    background:rgba(11,15,26,0.8);
+    backdrop-filter:blur(10px);
+}
+
+.logo{
+    font-size:24px;
+    font-weight:800;
+    color:#8B5CF6;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00F5FF;
+}
+
+.btn{
+    padding:10px 20px;
+    background:#8B5CF6;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    color:white;
+    transition:0.3s;
+}
+
+.btn:hover{
+    box-shadow:0 0 15px #8B5CF6;
+}
+
+/* Hero Section */
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 8%;
+}
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h1{
+    font-size:55px;
+    margin-bottom:20px;
+    background:linear-gradient(to right,#8B5CF6,#00F5FF);
+    background-clip:text;
+    color:transparent;
+}
+
+.hero-text p{
+    color:#9CA3AF;
+    margin-bottom:30px;
+}
+
+.hero-image img{
+    width:450px;
+    filter:drop-shadow(0 0 30px #8B5CF6);
+}
+
+/* Games Section */
+.games{
+    padding:80px 8%;
+    background:#111827;
+    text-align:center;
+}
+
+.games h2{
+    margin-bottom:50px;
+    font-size:35px;
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#0B0F1A;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #00F5FF;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+/* Footer */
+footer{
+    padding:30px 8%;
+    text-align:center;
+    background:#0B0F1A;
+    color:#9CA3AF;
+}
